@@ -1,0 +1,36 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>chan17登陆页面</title>
+<style type="text/css">
+#passw {
+  position: static;
+	left: auto;
+	z-index: auto;
+	clip: rect(auto,auto,auto,auto);
+}
+</style>
+</head>
+<body>
+<a href="logout.php?action=logut">退出登陆</a>
+<hr>
+<form id="form1" name="form1" method="post" action="login.php">
+  <p>用户名：
+    <label for="user"></label>
+  <input type="text" name="user_id" id="user_id" />
+  </p>
+  <p>
+    密码：
+      <label for="passw"></label>
+    <input type="text" name="passw" id="passw" />
+  </p>
+  <p>
+    <input type="submit" name="submit2" id="up" value="登陆" />
+</form>
+<a href="index.php">回到首页</a>
+<br>
+<hr>
+<p>啊哦？没有账号，注册一个。。</p>
+<a href='sign.php'>点击注册</a>
+</body>
+</html>
